@@ -1,0 +1,25 @@
+<?php
+
+namespace frontend\modules\news;
+
+/**
+ * news module definition class
+ */
+class Module extends \yii\base\Module
+{
+	/**
+	 * @inheritdoc
+	 */
+	public $controllerNamespace = 'frontend\modules\news\controllers';
+
+	/**
+	 * @inheritdoc
+	 */
+	public function init()
+	{
+		parent::init();
+        $this->params['locked'] = 1;
+		\Yii::configure($this, require(__DIR__ . '/config.php'));
+		// custom initialization code goes here
+	}
+}

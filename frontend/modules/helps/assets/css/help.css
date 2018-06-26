@@ -1,0 +1,20 @@
+.help:hover, .hnt-element-edidor:hover, .only_help:hover {
+	cursor: pointer;
+}
+.hnt-element-edidor {
+	border: 3px solid rgb(1, 23, 255) !important;
+	/*background-color: rgba(255, 255, 0, 0.3) !important;*/
+}
+.hnt-edited {
+    border: 3px solid rgb(0, 255, 0) !important;
+	/*background-color: rgba(0, 255, 0, 0.5) !important;*/
+}
+.only_help {
+	margin-left: 10px;
+	color: #000;
+}
+
+.not_main_hints {
+    color: red;
+}
+
